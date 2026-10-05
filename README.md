@@ -150,33 +150,17 @@ start index.html
 ## 📂 7. Repository File Structure
 
 ```
-c:/Users/Rajesh chowke/Desktop/web design/
 ├── index.html                     # Interactive Redesign Studio Web App
 ├── styles.css                     # Modern CSS design system & responsive frames
-├── REDESIGN_CASE_STUDY.md         # Comprehensive UX Heuristic Evaluation & Case Study
-├── README.md                      # Project documentation & usage guide
-├── figma_generator_script.js      # Automation script for Figma console
-├── food_delivery_ux_board.svg     # Master UX Planning Board (Sprint 01 & 02)
-│
 ├── hifi_screens/                  # High-Fidelity Vector Mockups (Figma-Ready)
-│   ├── desktop_homepage_1440.svg  # Desktop Discovery & Feed (1440x960)
-│   ├── desktop_menu_1440.svg      # Desktop Menu & Sticky Cart (1440x960)
-│   ├── desktop_tracker_1440.svg   # Desktop Live GPS Tracker (1440x960)
-│   ├── mobile_homepage_390.svg    # Mobile Discovery Feed (390x844)
-│   ├── mobile_menu_390.svg        # Mobile Dish Customizer Drawer (390x844)
-│   ├── mobile_checkout_390.svg    # Mobile Transparent Checkout (390x844)
-│   ├── mobile_tracker_390.svg     # Mobile GPS Tracker & Milestones (390x844)
-│   └── style_guide_board.svg      # Master Design System & Mood Board Canvas
-│
-└── screens/                       # Baseline Lo-Fi Wireframe Screens (v0.1)
-    ├── 01_discover.svg
-    ├── 02_compare.svg
-    ├── 03_choose.svg
-    ├── 04_customize.svg
-    ├── 05_review.svg
-    ├── 06_checkout.svg
-    ├── 07_confirm.svg
-    └── 08_track.svg
+    ├── desktop_homepage_1440.svg  # Desktop Discovery & Feed (1440x960)
+    ├── desktop_menu_1440.svg      # Desktop Menu & Sticky Cart (1440x960)
+    ├── desktop_tracker_1440.svg   # Desktop Live GPS Tracker (1440x960)
+    ├── mobile_homepage_390.svg    # Mobile Discovery Feed (390x844)
+    ├── mobile_menu_390.svg        # Mobile Dish Customizer Drawer (390x844)
+    ├── mobile_checkout_390.svg    # Mobile Transparent Checkout (390x844)
+    ├── mobile_tracker_390.svg     # Mobile GPS Tracker & Milestones (390x844)
+    └── style_guide_board.svg      # Master Design System & Mood Board Canvas
 ```
 
 ---
