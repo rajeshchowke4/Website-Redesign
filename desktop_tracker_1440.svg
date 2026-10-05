@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 960" width="1440" height="960" style="background:#F8FAFC; font-family:'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+  <defs>
+    <filter id="shadowLg" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#0F172A" flood-opacity="0.09"/>
+    </filter>
+    <linearGradient id="mapBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2E8F0"/>
+      <stop offset="100%" stop-color="#CBD5E1"/>
+    </linearGradient>
+    <linearGradient id="routeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0D9488"/>
+      <stop offset="50%" stop-color="#FF5B26"/>
+      <stop offset="100%" stop-color="#FF5B26"/>
+    </linearGradient>
+  </defs>
+
+  <!-- BACKGROUND -->
+  <rect width="1440" height="960" fill="#F8FAFC"/>
+
+  <!-- TOP NAV -->
+  <rect width="1440" height="72" fill="#FFFFFF"/>
+  <line x1="0" y1="72" x2="1440" y2="72" stroke="#E2E8F0" stroke-width="1"/>
+
+  <g transform="translate(60, 18)">
+    <g transform="translate(0, 4)">
+      <rect width="32" height="32" rx="8" fill="#FF5B26"/>
+      <text x="42" y="24" font-size="20" font-weight="800" fill="#0F172A">Savory<tspan fill="#FF5B26">.</tspan></text>
+    </g>
+
+    <g transform="translate(200, 10)">
+      <rect width="190" height="26" rx="13" fill="#DCFCE7"/>
+      <circle cx="14" cy="13" r="4" fill="#15803D"/>
+      <text x="26" y="17" font-size="11.5" font-weight="700" fill="#15803D">LIVE TRACKING · ORDER #8920</text>
+    </g>
+
+    <g transform="translate(1220, 4)">
+      <rect width="160" height="36" rx="18" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="80" y="23" font-size="12.5" font-weight="700" fill="#0F172A" text-anchor="middle">Need Help? 🎧</text>
+    </g>
+  </g>
+
+  <!-- ==================== MAIN TRACKING LAYOUT (2 COLUMNS) ==================== -->
+  
+  <!-- LEFT COLUMN: STATUS MILESTONES & COURIER (WIDTH: 480) -->
+  <g transform="translate(60, 100)">
+    <rect width="460" height="800" rx="20" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadowLg)"/>
+
+    <g transform="translate(32, 32)">
+      <!-- ETA Hero Header -->
+      <rect width="130" height="24" rx="12" fill="#FF5B26" opacity="0.12"/>
+      <text x="65" y="16.5" font-size="11" font-weight="800" fill="#FF5B26" text-anchor="middle">ON THE WAY</text>
+
+      <text x="0" y="58" font-size="28" font-weight="800" fill="#0F172A">Arriving in 14 min</text>
+      <text x="0" y="82" font-size="14" font-weight="500" fill="#64748B">Estimated delivery at <tspan font-weight="700" fill="#0F172A">7:24 PM</tspan> to 18 Mercer St</text>
+
+      <!-- Progress Bar -->
+      <g transform="translate(0, 104)">
+        <rect width="396" height="8" rx="4" fill="#F1F5F9"/>
+        <rect width="280" height="8" rx="4" fill="#FF5B26"/>
+      </g>
+
+      <!-- 4-Step Milestone Stepper -->
+      <g transform="translate(0, 140)">
+        <!-- Step 1: Placed -->
+        <g transform="translate(0, 0)">
+          <circle cx="16" cy="16" r="16" fill="#10B981"/>
+          <text x="16" y="21" font-size="13" font-weight="800" fill="#FFFFFF" text-anchor="middle">✓</text>
+          <text x="48" y="16" font-size="14" font-weight="700" fill="#0F172A">Order confirmed &amp; sent</text>
+          <text x="48" y="32" font-size="12" fill="#64748B">7:02 PM · Siam Corner accepted</text>
+          <line x1="16" y1="36" x2="16" y2="60" stroke="#10B981" stroke-width="2"/>
+        </g>
+
+        <!-- Step 2: Preparing -->
+        <g transform="translate(0, 68)">
+          <circle cx="16" cy="16" r="16" fill="#10B981"/>
+          <text x="16" y="21" font-size="13" font-weight="800" fill="#FFFFFF" text-anchor="middle">✓</text>
+          <text x="48" y="16" font-size="14" font-weight="700" fill="#0F172A">Kitchen finished cooking</text>
+          <text x="48" y="32" font-size="12" fill="#64748B">7:14 PM · Sealed in thermal bag</text>
+          <line x1="16" y1="36" x2="16" y2="60" stroke="#FF5B26" stroke-width="2"/>
+        </g>
+
+        <!-- Step 3: Courier on the Way (Active) -->
+        <g transform="translate(0, 136)">
+          <circle cx="16" cy="16" r="18" fill="#FF5B26"/>
+          <text x="16" y="21" font-size="13" font-weight="800" fill="#FFFFFF" text-anchor="middle">🛵</text>
+          <text x="48" y="16" font-size="14.5" font-weight="800" fill="#FF5B26">Courier is en route to you</text>
+          <text x="48" y="32" font-size="12" font-weight="500" fill="#334155">Marcus is 0.7 miles away on Broadway</text>
+          <line x1="16" y1="40" x2="16" y2="64" stroke="#E2E8F0" stroke-width="2"/>
+        </g>
+
+        <!-- Step 4: Arrived -->
+        <g transform="translate(0, 208)">
+          <circle cx="16" cy="16" r="16" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="2"/>
+          <text x="16" y="21" font-size="11" font-weight="700" fill="#94A3B8" text-anchor="middle">4</text>
+          <text x="48" y="16" font-size="14" font-weight="600" fill="#94A3B8">Delivered to door</text>
+          <text x="48" y="32" font-size="12" fill="#94A3B8">Estimated 7:24 PM</text>
+        </g>
+      </g>
+
+      <!-- COURIER CARD -->
+      <g transform="translate(0, 420)">
+        <rect width="396" height="110" rx="16" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+        <!-- Avatar -->
+        <circle cx="44" cy="45" r="26" fill="#CBD5E1"/>
+        <text x="44" y="52" font-size="24" text-anchor="middle">🧔🏽</text>
+
+        <!-- Courier Details -->
+        <text x="86" y="38" font-size="15" font-weight="800" fill="#0F172A">Marcus Vance</text>
+        <text x="86" y="56" font-size="12.5" font-weight="600" fill="#0F766E">★ 4.98 (2,410 deliveries)</text>
+        <text x="86" y="74" font-size="12" fill="#64748B">Silver Super73 E-Bike · Plate #NY-71</text>
+
+        <!-- Action Buttons -->
+        <g transform="translate(290, 28)">
+          <circle cx="18" cy="18" r="18" fill="#FF5B26"/>
+          <text x="18" y="23" font-size="15" text-anchor="middle" fill="#FFFFFF">📞</text>
+
+          <circle cx="62" cy="18" r="18" fill="#0F172A"/>
+          <text x="62" y="23" font-size="14" text-anchor="middle" fill="#FFFFFF">💬</text>
+        </g>
+      </g>
+
+      <!-- DELIVERY INSTRUCTIONS BOX -->
+      <g transform="translate(0, 550)">
+        <rect width="396" height="74" rx="12" fill="#F1F5F9"/>
+        <text x="18" y="26" font-size="12" font-weight="700" fill="#0F172A">Drop-off Instructions:</text>
+        <text x="18" y="46" font-size="12" fill="#475569">"Buzzer #4B. Please leave on the doorstep mat. No need to knock."</text>
+      </g>
+
+      <!-- Cancel / Modify Grace Period Pill -->
+      <g transform="translate(0, 644)">
+        <rect width="396" height="42" rx="12" fill="#FEF2F2" stroke="#FCA5A5" stroke-width="1"/>
+        <text x="198" y="26" font-size="12" font-weight="600" fill="#B91C1C" text-anchor="middle">Need to change anything? Chat with live support</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- RIGHT COLUMN: INTERACTIVE MAP & ROUTE SIMULATION (WIDTH: 820) -->
+  <g transform="translate(560, 100)">
+    <rect width="820" height="800" rx="20" fill="url(#mapBg)" stroke="#CBD5E1" stroke-width="1" filter="url(#shadowLg)"/>
+    
+    <!-- Stylized Map Roads / Streets -->
+    <path d="M40 180 L780 180 M40 360 L780 360 M40 540 L780 540" stroke="#FFFFFF" stroke-width="14"/>
+    <path d="M220 40 L220 760 M480 40 L480 760 M660 40 L660 760" stroke="#FFFFFF" stroke-width="14"/>
+    
+    <!-- Diagonal Broadway Avenue -->
+    <path d="M120 740 L720 120" stroke="#FFFFFF" stroke-width="20"/>
+    <path d="M120 740 L720 120" stroke="#FFFBEB" stroke-width="12"/>
+
+    <!-- Map Labels -->
+    <text x="235" y="165" font-size="12" font-weight="700" fill="#94A3B8" letter-spacing="1">HOUSTON ST</text>
+    <text x="495" y="165" font-size="12" font-weight="700" fill="#94A3B8" letter-spacing="1">PRINCE ST</text>
+    <text x="50" y="345" font-size="12" font-weight="700" fill="#94A3B8" letter-spacing="1">SPRING ST</text>
+    <text x="360" y="440" font-size="14" font-weight="800" fill="#64748B" transform="rotate(-45 360 440)">BROADWAY</text>
+
+    <!-- DELIVERY ROUTE PATH -->
+    <!-- Start: Siam Corner (640, 180) -> (480, 360) -> (360, 480) -> Finish (220, 540) -->
+    <path d="M660 180 L480 360 L360 480 L220 540" fill="none" stroke="#FF5B26" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="10 6"/>
+
+    <!-- Restaurant Pin -->
+    <g transform="translate(660, 180)">
+      <circle cx="0" cy="0" r="24" fill="#0D9488" filter="url(#shadowLg)"/>
+      <text x="0" y="6" font-size="16" text-anchor="middle" fill="#FFFFFF">🍜</text>
+      <!-- Label Card -->
+      <rect x="-70" y="-48" width="140" height="28" rx="8" fill="#0F172A"/>
+      <text x="0" y="-30" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">Siam Corner (Picked up)</text>
+    </g>
+
+    <!-- LIVE COURIER VEHICLE ICON (Currently at 420, 420) -->
+    <g transform="translate(420, 420)">
+      <!-- Animated Pulse Ring -->
+      <circle cx="0" cy="0" r="34" fill="#FF5B26" opacity="0.25"/>
+      <circle cx="0" cy="0" r="22" fill="#FF5B26"/>
+      <text x="0" y="6" font-size="18" text-anchor="middle" fill="#FFFFFF">🛵</text>
+
+      <!-- Floating ETA Tooltip -->
+      <g transform="translate(-75, -58)">
+        <rect width="150" height="34" rx="10" fill="#0F172A" filter="url(#shadowLg)"/>
+        <text x="75" y="21" font-size="12" font-weight="800" fill="#FFFFFF" text-anchor="middle">Marcus (3 mins away)</text>
+      </g>
+    </g>
+
+    <!-- Destination Pin (User Home: 220, 540) -->
+    <g transform="translate(220, 540)">
+      <circle cx="0" cy="0" r="22" fill="#10B981" filter="url(#shadowLg)"/>
+      <text x="0" y="6" font-size="16" text-anchor="middle" fill="#FFFFFF">🏠</text>
+
+      <rect x="-65" y="32" width="130" height="28" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="0" y="50" font-size="11" font-weight="700" fill="#0F172A" text-anchor="middle">18 Mercer St (Home)</text>
+    </g>
+
+    <!-- Floating Map Controls -->
+    <g transform="translate(740, 720)">
+      <circle cx="20" cy="20" r="20" fill="#FFFFFF" filter="url(#shadowLg)"/>
+      <text x="20" y="27" font-size="18" text-anchor="middle" fill="#0F172A">＋</text>
+      <circle cx="20" cy="65" r="20" fill="#FFFFFF" filter="url(#shadowLg)"/>
+      <text x="20" y="70" font-size="18" text-anchor="middle" fill="#0F172A">－</text>
+    </g>
+  </g>
+</svg>

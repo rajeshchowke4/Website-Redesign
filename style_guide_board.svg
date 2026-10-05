@@ -1,0 +1,301 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" width="1600" height="1200" style="background:#FAF9F5; font-family:'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+  <defs>
+    <filter id="sgShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="4" stdDeviation="10" flood-color="#0F172A" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- BOARD CANVAS BACKGROUND -->
+  <rect width="1600" height="1200" fill="#FAF9F5"/>
+
+  <!-- ==================== HEADER ==================== -->
+  <g transform="translate(60, 48)">
+    <rect width="210" height="26" rx="13" fill="#EAE8E1"/>
+    <text x="105" y="17" font-size="10.5" font-weight="700" fill="#0F172A" text-anchor="middle" letter-spacing="1">DESIGN SYSTEM &amp; MOOD BOARD</text>
+
+    <text x="0" y="70" font-size="36" font-weight="800" fill="#0F172A" letter-spacing="-0.8">Savory Design Language v2.0</text>
+    <text x="0" y="98" font-size="14.5" fill="#64748B">A human-centered visual design system engineered for visual hierarchy, appetite stimulation, and transparent usability.</text>
+  </g>
+
+  <!-- ==================== SECTION 1: MOOD BOARD & BRAND IDENTITY (LEFT COLUMN) ==================== -->
+  <g transform="translate(60, 180)">
+    <rect width="460" height="960" rx="20" fill="#FFFFFF" stroke="#E2DFD7" stroke-width="1" filter="url(#sgShadow)"/>
+    
+    <g transform="translate(32, 32)">
+      <text x="0" y="20" font-size="18" font-weight="800" fill="#0F172A">01 · Visual Mood &amp; Atmosphere</text>
+      <text x="0" y="42" font-size="13" fill="#64748B">Warm culinary craftsmanship meets frictionless clarity.</text>
+
+      <!-- Mood Card 1: Warm Craft -->
+      <g transform="translate(0, 68)">
+        <rect width="396" height="130" rx="14" fill="#FFEDD5" stroke="#FDBA74" stroke-width="1"/>
+        <text x="24" y="36" font-size="16" font-weight="800" fill="#C2410C">Warmth &amp; Appetite</text>
+        <text x="24" y="58" font-size="12.5" fill="#9A3412" width="350">
+          <tspan x="24" dy="0">Rich terracotta tones, natural golden oils, fresh</tspan>
+          <tspan x="24" dy="18">steam, and organic sizzle stimulate hunger and comfort.</tspan>
+        </text>
+        <g transform="translate(24, 94)">
+          <rect width="80" height="22" rx="6" fill="#EA580C"/>
+          <text x="40" y="15" font-size="10" font-weight="700" fill="#FFFFFF" text-anchor="middle">COMFORT</text>
+          <rect x="90" width="80" height="22" rx="6" fill="#F97316"/>
+          <text x="130" y="15" font-size="10" font-weight="700" fill="#FFFFFF" text-anchor="middle">ARTISANAL</text>
+        </g>
+        <text x="350" y="65" font-size="38" text-anchor="middle">🥘</text>
+      </g>
+
+      <!-- Mood Card 2: Freshness & Balance -->
+      <g transform="translate(0, 218)">
+        <rect width="396" height="130" rx="14" fill="#CCFBF1" stroke="#99F6E4" stroke-width="1"/>
+        <text x="24" y="36" font-size="16" font-weight="800" fill="#0F766E">Freshness &amp; Dietary Clarity</text>
+        <text x="24" y="58" font-size="12.5" fill="#115E59">
+          <tspan x="24" dy="0">Deep botanical greens, clean herbs, and crisp salads</tspan>
+          <tspan x="24" dy="18">signal farm-fresh nourishment and health transparency.</tspan>
+        </text>
+        <g transform="translate(24, 94)">
+          <rect width="80" height="22" rx="6" fill="#0D9488"/>
+          <text x="40" y="15" font-size="10" font-weight="700" fill="#FFFFFF" text-anchor="middle">ORGANIC</text>
+          <rect x="90" width="80" height="22" rx="6" fill="#14B8A6"/>
+          <text x="130" y="15" font-size="10" font-weight="700" fill="#FFFFFF" text-anchor="middle">MINDFUL</text>
+        </g>
+        <text x="350" y="65" font-size="38" text-anchor="middle">🥗</text>
+      </g>
+
+      <!-- Mood Card 3: Trust & Precision -->
+      <g transform="translate(0, 368)">
+        <rect width="396" height="130" rx="14" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+        <text x="24" y="36" font-size="16" font-weight="800" fill="#0F172A">Trust, Speed &amp; Certainty</text>
+        <text x="24" y="58" font-size="12.5" fill="#334155">
+          <tspan x="24" dy="0">High contrast slate, clear price itemization, and live</tspan>
+          <tspan x="24" dy="18">GPS telemetry eliminate customer guessing and anxiety.</tspan>
+        </text>
+        <g transform="translate(24, 94)">
+          <rect width="80" height="22" rx="6" fill="#0F172A"/>
+          <text x="40" y="15" font-size="10" font-weight="700" fill="#FFFFFF" text-anchor="middle">ACCURATE</text>
+          <rect x="90" width="80" height="22" rx="6" fill="#475569"/>
+          <text x="130" y="15" font-size="10" font-weight="700" fill="#FFFFFF" text-anchor="middle">PRECISE</text>
+        </g>
+        <text x="350" y="65" font-size="38" text-anchor="middle">⚡</text>
+      </g>
+
+      <!-- Design Principles Checklist -->
+      <g transform="translate(0, 520)">
+        <text x="0" y="20" font-size="15" font-weight="800" fill="#0F172A">Core Design Tenets</text>
+        
+        <g transform="translate(0, 36)">
+          <circle cx="8" cy="8" r="4" fill="#FF5B26"/>
+          <text x="22" y="12" font-size="13" font-weight="700" fill="#0F172A">No Hidden Math:</text>
+          <text x="145" y="12" font-size="12.5" fill="#64748B">Upfront total prices on cards</text>
+
+          <circle cx="8" cy="38" r="4" fill="#FF5B26"/>
+          <text x="22" y="42" font-size="13" font-weight="700" fill="#0F172A">Thumb Ergonomics:</text>
+          <text x="165" y="42" font-size="12.5" fill="#64748B">Critical CTAs in bottom 30%</text>
+
+          <circle cx="8" cy="68" r="4" fill="#FF5B26"/>
+          <text x="22" y="72" font-size="13" font-weight="700" fill="#0F172A">Cognitive Breathing Room:</text>
+          <text x="210" y="72" font-size="12.5" fill="#64748B">8pt spatial layout</text>
+
+          <circle cx="8" cy="98" r="4" fill="#FF5B26"/>
+          <text x="22" y="102" font-size="13" font-weight="700" fill="#0F172A">Proactive Error Shielding:</text>
+          <text x="205" y="102" font-size="12.5" fill="#64748B">Clear required counters</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==================== SECTION 2: COLOR PALETTE & TOKENS (CENTER COLUMN) ==================== -->
+  <g transform="translate(550, 180)">
+    <rect width="470" height="960" rx="20" fill="#FFFFFF" stroke="#E2DFD7" stroke-width="1" filter="url(#sgShadow)"/>
+    
+    <g transform="translate(32, 32)">
+      <text x="0" y="20" font-size="18" font-weight="800" fill="#0F172A">02 · Color System &amp; Tokens</text>
+      <text x="0" y="42" font-size="13" fill="#64748B">Engineered for WCAG AA/AAA accessible contrast ratios.</text>
+
+      <!-- Color Swatches Grid -->
+      <g transform="translate(0, 68)">
+        <!-- Swatch 1: Primary Brand -->
+        <g transform="translate(0, 0)">
+          <rect width="195" height="74" rx="12" fill="#FF5B26"/>
+          <rect y="74" width="195" height="52" rx="0" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+          <text x="14" y="96" font-size="13" font-weight="800" fill="#0F172A">Brand Crave</text>
+          <text x="14" y="114" font-size="11" font-weight="600" fill="#64748B">#FF5B26 · 3.3:1</text>
+          <rect x="135" y="86" width="46" height="18" rx="4" fill="#FFEDD5"/>
+          <text x="158" y="98.5" font-size="9" font-weight="800" fill="#C2410C" text-anchor="middle">PRIMARY</text>
+        </g>
+
+        <!-- Swatch 2: Teal Secondary -->
+        <g transform="translate(210, 0)">
+          <rect width="195" height="74" rx="12" fill="#0D9488"/>
+          <rect y="74" width="195" height="52" rx="0" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+          <text x="14" y="96" font-size="13" font-weight="800" fill="#0F172A">Fresh Forest</text>
+          <text x="14" y="114" font-size="11" font-weight="600" fill="#64748B">#0D9488 · 4.6:1 (AA)</text>
+          <rect x="135" y="86" width="46" height="18" rx="4" fill="#DCFCE7"/>
+          <text x="158" y="98.5" font-size="9" font-weight="800" fill="#15803D" text-anchor="middle">BADGE</text>
+        </g>
+
+        <!-- Swatch 3: Dark Slate -->
+        <g transform="translate(0, 145)">
+          <rect width="195" height="74" rx="12" fill="#0F172A"/>
+          <rect y="74" width="195" height="52" rx="0" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+          <text x="14" y="96" font-size="13" font-weight="800" fill="#0F172A">Slate Obsidian</text>
+          <text x="14" y="114" font-size="11" font-weight="600" fill="#64748B">#0F172A · 16:1 (AAA)</text>
+          <rect x="135" y="86" width="46" height="18" rx="4" fill="#E2E8F0"/>
+          <text x="158" y="98.5" font-size="9" font-weight="800" fill="#0F172A" text-anchor="middle">TEXT H1</text>
+        </g>
+
+        <!-- Swatch 4: Amber Rating -->
+        <g transform="translate(210, 145)">
+          <rect width="195" height="74" rx="12" fill="#F59E0B"/>
+          <rect y="74" width="195" height="52" rx="0" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+          <text x="14" y="96" font-size="13" font-weight="800" fill="#0F172A">Honey Amber</text>
+          <text x="14" y="114" font-size="11" font-weight="600" fill="#64748B">#F59E0B · 3.1:1</text>
+          <rect x="135" y="86" width="46" height="18" rx="4" fill="#FEF3C7"/>
+          <text x="158" y="98.5" font-size="9" font-weight="800" fill="#D97706" text-anchor="middle">RATING</text>
+        </g>
+
+        <!-- Swatch 5: Success Green -->
+        <g transform="translate(0, 290)">
+          <rect width="195" height="74" rx="12" fill="#10B981"/>
+          <rect y="74" width="195" height="52" rx="0" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+          <text x="14" y="96" font-size="13" font-weight="800" fill="#0F172A">Emerald Success</text>
+          <text x="14" y="114" font-size="11" font-weight="600" fill="#64748B">#10B981 · 4.5:1 (AA)</text>
+          <rect x="135" y="86" width="46" height="18" rx="4" fill="#DCFCE7"/>
+          <text x="158" y="98.5" font-size="9" font-weight="800" fill="#15803D" text-anchor="middle">STATUS</text>
+        </g>
+
+        <!-- Swatch 6: Surface Light -->
+        <g transform="translate(210, 290)">
+          <rect width="195" height="74" rx="12" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+          <rect y="74" width="195" height="52" rx="0" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+          <text x="14" y="96" font-size="13" font-weight="800" fill="#0F172A">Alabaster Surface</text>
+          <text x="14" y="114" font-size="11" font-weight="600" fill="#64748B">#F8FAFC · Background</text>
+          <rect x="135" y="86" width="46" height="18" rx="4" fill="#F1F5F9"/>
+          <text x="158" y="98.5" font-size="9" font-weight="800" fill="#475569" text-anchor="middle">CANVAS</text>
+        </g>
+      </g>
+
+      <!-- Typography Specimen -->
+      <g transform="translate(0, 520)">
+        <text x="0" y="20" font-size="15" font-weight="800" fill="#0F172A">Typography Scale (Inter / Jakarta)</text>
+        
+        <g transform="translate(0, 42)">
+          <text x="0" y="22" font-size="26" font-weight="800" fill="#0F172A">Display 36px Bold</text>
+          <text x="320" y="20" font-size="11" font-weight="600" fill="#94A3B8">36 / 44 · -0.02em</text>
+
+          <text x="0" y="60" font-size="20" font-weight="800" fill="#0F172A">Heading 1 · 24px Bold</text>
+          <text x="320" y="58" font-size="11" font-weight="600" fill="#94A3B8">24 / 32 · -0.01em</text>
+
+          <text x="0" y="94" font-size="16" font-weight="700" fill="#0F172A">Heading 2 · 17px SemiBold</text>
+          <text x="320" y="92" font-size="11" font-weight="600" fill="#94A3B8">17 / 24</text>
+
+          <text x="0" y="126" font-size="14" font-weight="400" fill="#334155">Body Regular · 14px for descriptions &amp; reviews</text>
+          <text x="320" y="124" font-size="11" font-weight="600" fill="#94A3B8">14 / 22</text>
+
+          <text x="0" y="156" font-size="11" font-weight="700" fill="#64748B" letter-spacing="1">MICRO CAPTION · 11PX SEMIBOLD UPPERCASE</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==================== SECTION 3: COMPONENT UI KIT (RIGHT COLUMN) ==================== -->
+  <g transform="translate(1050, 180)">
+    <rect width="490" height="960" rx="20" fill="#FFFFFF" stroke="#E2DFD7" stroke-width="1" filter="url(#sgShadow)"/>
+    
+    <g transform="translate(32, 32)">
+      <text x="0" y="20" font-size="18" font-weight="800" fill="#0F172A">03 · Reusable Component UI Kit</text>
+      <text x="0" y="42" font-size="13" fill="#64748B">Modular elements with accessible interactive states.</text>
+
+      <!-- Buttons Section -->
+      <g transform="translate(0, 68)">
+        <text x="0" y="14" font-size="13" font-weight="700" fill="#64748B">BUTTON STATES</text>
+        
+        <g transform="translate(0, 24)">
+          <!-- Primary CTA -->
+          <rect width="130" height="40" rx="10" fill="#FF5B26"/>
+          <text x="65" y="25" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">Order Now</text>
+
+          <!-- Secondary Slate -->
+          <rect x="142" width="130" height="40" rx="10" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1"/>
+          <text x="207" y="25" font-size="13" font-weight="700" fill="#0F172A" text-anchor="middle">View Menu</text>
+
+          <!-- Disabled Proactive State -->
+          <rect x="284" width="140" height="40" rx="10" fill="#E2E8F0"/>
+          <text x="354" y="25" font-size="12" font-weight="600" fill="#94A3B8" text-anchor="middle">Select Protein</text>
+        </g>
+      </g>
+
+      <!-- Filter Pills -->
+      <g transform="translate(0, 160)">
+        <text x="0" y="14" font-size="13" font-weight="700" fill="#64748B">FILTER CHIPS</text>
+        <g transform="translate(0, 24)">
+          <rect width="80" height="32" rx="16" fill="#0F172A"/>
+          <text x="40" y="20" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">All (48)</text>
+
+          <rect x="90" width="105" height="32" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+          <text x="142" y="20" font-size="12" font-weight="600" fill="#334155" text-anchor="middle">🍜 Thai Picks</text>
+
+          <rect x="204" width="115" height="32" rx="16" fill="#DCFCE7" stroke="#10B981" stroke-width="1"/>
+          <text x="261" y="20" font-size="12" font-weight="700" fill="#15803D" text-anchor="middle">✓ Free Delivery</text>
+        </g>
+      </g>
+
+      <!-- Input Fields -->
+      <g transform="translate(0, 246)">
+        <text x="0" y="14" font-size="13" font-weight="700" fill="#64748B">FORM INPUTS &amp; STEPPERS</text>
+        
+        <g transform="translate(0, 24)">
+          <!-- Search Input -->
+          <rect width="280" height="42" rx="10" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+          <text x="16" y="26" font-size="13" fill="#94A3B8">🔍 Search restaurants...</text>
+
+          <!-- Stepper -->
+          <g transform="translate(294, 0)">
+            <rect width="130" height="42" rx="10" fill="#F1F5F9"/>
+            <text x="25" y="26" font-size="16" font-weight="700" fill="#64748B" text-anchor="middle">－</text>
+            <text x="65" y="26" font-size="15" font-weight="800" fill="#0F172A" text-anchor="middle">2</text>
+            <text x="105" y="26" font-size="16" font-weight="700" fill="#0F172A" text-anchor="middle">＋</text>
+          </g>
+        </g>
+      </g>
+
+      <!-- Mini Live Card Component -->
+      <g transform="translate(0, 345)">
+        <text x="0" y="14" font-size="13" font-weight="700" fill="#64748B">RESTAURANT CARD SPECIMEN</text>
+        
+        <g transform="translate(0, 24)">
+          <rect width="425" height="155" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#sgShadow)"/>
+          <rect x="14" y="14" width="100" height="127" rx="10" fill="#FDE68A"/>
+          <text x="64" y="82" font-size="38" text-anchor="middle">🍜</text>
+
+          <g transform="translate(128, 22)">
+            <text x="0" y="16" font-size="16" font-weight="800" fill="#0F172A">Siam Corner</text>
+            <text x="0" y="36" font-size="12" fill="#64748B">Authentic Street Food · $$</text>
+            <text x="0" y="58" font-size="12" font-weight="700" fill="#0F766E">★ 4.9 (1.2k)  •  15–20 min</text>
+            
+            <g transform="translate(0, 78)">
+              <rect width="90" height="22" rx="6" fill="#DCFCE7"/>
+              <text x="45" y="15" font-size="10.5" font-weight="700" fill="#15803D" text-anchor="middle">Free Delivery</text>
+
+              <rect x="98" width="60" height="22" rx="6" fill="#F1F5F9"/>
+              <text x="128" y="15" font-size="10.5" font-weight="600" fill="#475569" text-anchor="middle">0.8 mi</text>
+            </g>
+          </g>
+        </g>
+      </g>
+
+      <!-- Milestone Status Badge -->
+      <g transform="translate(0, 560)">
+        <text x="0" y="14" font-size="13" font-weight="700" fill="#64748B">LIVE MILESTONE STEPPER</text>
+        <g transform="translate(0, 24)">
+          <rect width="425" height="80" rx="12" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+          <circle cx="36" cy="40" r="14" fill="#FF5B26"/>
+          <text x="36" y="44" font-size="12" text-anchor="middle" fill="#FFFFFF">🛵</text>
+          <g transform="translate(64, 28)">
+            <text x="0" y="14" font-size="13.5" font-weight="800" fill="#0F172A">En route with courier</text>
+            <text x="0" y="30" font-size="11.5" fill="#64748B">Marcus Vance is 3 mins away</text>
+          </g>
+          <rect x="315" y="26" width="90" height="28" rx="8" fill="#0F172A"/>
+          <text x="360" y="44" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">Live Map</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

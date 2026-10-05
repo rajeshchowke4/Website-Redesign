@@ -1,0 +1,269 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 960" width="1440" height="960" style="background:#F8FAFC; font-family:'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+  <defs>
+    <filter id="shadowMd" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#0F172A" flood-opacity="0.07"/>
+    </filter>
+    <filter id="modalShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#0F172A" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- BACKGROUND -->
+  <rect width="1440" height="960" fill="#F8FAFC"/>
+
+  <!-- TOP NAV -->
+  <rect width="1440" height="72" fill="#FFFFFF"/>
+  <line x1="0" y1="72" x2="1440" y2="72" stroke="#E2E8F0" stroke-width="1"/>
+
+  <g transform="translate(60, 18)">
+    <g transform="translate(0, 4)">
+      <rect width="32" height="32" rx="8" fill="#FF5B26"/>
+      <text x="42" y="24" font-size="20" font-weight="800" fill="#0F172A">Savory<tspan fill="#FF5B26">.</tspan></text>
+    </g>
+
+    <!-- Breadcrumb -->
+    <g transform="translate(180, 10)">
+      <text x="0" y="14" font-size="13" font-weight="500" fill="#64748B">Home / Manhattan / Thai / <tspan font-weight="700" fill="#0F172A">Siam Corner</tspan></text>
+    </g>
+
+    <!-- Address & Search -->
+    <g transform="translate(560, 2)">
+      <rect width="360" height="36" rx="18" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="36" y="23" font-size="13" fill="#64748B">Search within Siam Corner menu...</text>
+      <circle cx="20" cy="18" r="5" stroke="#94A3B8" stroke-width="1.6" fill="none"/>
+    </g>
+
+    <!-- Cart Button -->
+    <g transform="translate(1180, 0)">
+      <rect width="140" height="40" rx="20" fill="#0F172A"/>
+      <text x="46" y="25" font-size="13.5" font-weight="700" fill="#FFFFFF">Cart (3)</text>
+      <circle cx="26" cy="20" r="3" fill="#10B981"/>
+      <text x="108" y="25" font-size="12" font-weight="600" fill="#94A3B8">$31.90</text>
+    </g>
+  </g>
+
+  <!-- RESTAURANT HERO HEADER -->
+  <g transform="translate(60, 92)">
+    <rect width="1320" height="150" rx="20" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadowMd)"/>
+    
+    <!-- Hero Image Thumbnail -->
+    <rect x="20" y="20" width="160" height="110" rx="14" fill="#FDE68A"/>
+    <text x="100" y="85" font-size="54" text-anchor="middle">🍜</text>
+
+    <!-- Restaurant Info -->
+    <g transform="translate(204, 28)">
+      <g transform="translate(0, 0)">
+        <text x="0" y="22" font-size="24" font-weight="800" fill="#0F172A">Siam Corner · Authentic Street Food</text>
+        <rect x="420" y="4" width="70" height="22" rx="11" fill="#DCFCE7"/>
+        <text x="455" y="19" font-size="11" font-weight="700" fill="#15803D" text-anchor="middle">VERIFIED</text>
+      </g>
+      
+      <g transform="translate(0, 42)">
+        <text x="0" y="16" font-size="14" font-weight="700" fill="#0F172A">★ 4.9</text>
+        <text x="40" y="16" font-size="13" fill="#64748B">(1,248 reviews) · Central Bangkok Style · $$</text>
+      </g>
+
+      <g transform="translate(0, 72)">
+        <rect width="112" height="26" rx="13" fill="#E6FFFA" stroke="#0D9488" stroke-width="1"/>
+        <text x="56" y="17" font-size="11.5" font-weight="700" fill="#0F766E" text-anchor="middle">⏱ 15–20 MIN</text>
+
+        <rect x="122" width="130" height="26" rx="13" fill="#F1F5F9"/>
+        <text x="187" y="17" font-size="11.5" font-weight="600" fill="#334155" text-anchor="middle">🎉 Free Delivery > $15</text>
+
+        <rect x="262" width="100" height="26" rx="13" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+        <text x="312" y="17" font-size="11.5" font-weight="600" fill="#64748B" text-anchor="middle">🌱 Vegan Friendly</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- STICKY MENU CATEGORY BAR -->
+  <g transform="translate(60, 260)">
+    <rect width="870" height="44" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    
+    <!-- Tab 1: Popular (Active) -->
+    <rect x="6" y="5" width="120" height="34" rx="8" fill="#FF5B26"/>
+    <text x="66" y="26" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">Most Popular</text>
+
+    <!-- Tab 2: Noodles -->
+    <text x="185" y="27" font-size="13" font-weight="600" fill="#64748B">Wok Noodles</text>
+
+    <!-- Tab 3: Curries -->
+    <text x="300" y="27" font-size="13" font-weight="600" fill="#64748B">Rich Curries</text>
+
+    <!-- Tab 4: Rice Plates -->
+    <text x="415" y="27" font-size="13" font-weight="600" fill="#64748B">Rice Plates</text>
+
+    <!-- Tab 5: Starters -->
+    <text x="525" y="27" font-size="13" font-weight="600" fill="#64748B">Crispy Starters</text>
+
+    <!-- Tab 6: Drinks & Mango -->
+    <text x="665" y="27" font-size="13" font-weight="600" fill="#64748B">Desserts &amp; Drinks</text>
+  </g>
+
+  <!-- ==================== MENU ITEMS GRID (LEFT/CENTER) ==================== -->
+  <g transform="translate(60, 320)">
+    <text x="0" y="20" font-size="18" font-weight="800" fill="#0F172A">Most Popular Dishes (6)</text>
+
+    <!-- Dish 1: Crispy Pad Thai -->
+    <g transform="translate(0, 36)">
+      <rect width="425" height="150" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadowMd)"/>
+      <g transform="translate(18, 20)">
+        <text x="0" y="16" font-size="16" font-weight="700" fill="#0F172A">Pad Thai Boran Tamarind</text>
+        <text x="0" y="36" font-size="12.5" fill="#64748B" width="260">
+          <tspan x="0" dy="0">Rice noodles, dried shrimp, crushed peanuts,</tspan>
+          <tspan x="0" dy="16">bean sprouts, tamarind reduction sauce.</tspan>
+        </text>
+        <text x="0" y="90" font-size="16" font-weight="800" fill="#FF5B26">$14.50</text>
+        <rect x="68" y="74" width="70" height="22" rx="6" fill="#FEF3C7"/>
+        <text x="103" y="89" font-size="11" font-weight="700" fill="#D97706" text-anchor="middle">POPULAR</text>
+      </g>
+      <!-- Thumbnail & Add Button -->
+      <g transform="translate(305, 20)">
+        <rect width="102" height="85" rx="10" fill="#FED7AA"/>
+        <text x="51" y="55" font-size="34" text-anchor="middle">🍜</text>
+        <rect x="18" y="92" width="66" height="26" rx="13" fill="#0F172A"/>
+        <text x="51" y="109" font-size="11.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">+ ADD</text>
+      </g>
+    </g>
+
+    <!-- Dish 2: Green Curry Chicken -->
+    <g transform="translate(445, 36)">
+      <rect width="425" height="150" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadowMd)"/>
+      <g transform="translate(18, 20)">
+        <text x="0" y="16" font-size="16" font-weight="700" fill="#0F172A">Bangkok Green Curry Bowl</text>
+        <text x="0" y="36" font-size="12.5" fill="#64748B">
+          <tspan x="0" dy="0">Creamy coconut milk, Thai basil, bamboo</tspan>
+          <tspan x="0" dy="16">shoots, kaffir lime, steamed jasmine rice.</tspan>
+        </text>
+        <text x="0" y="90" font-size="16" font-weight="800" fill="#FF5B26">$15.95</text>
+        <rect x="68" y="74" width="60" height="22" rx="6" fill="#DCFCE7"/>
+        <text x="98" y="89" font-size="11" font-weight="700" fill="#15803D" text-anchor="middle">SPICY 🌶️</text>
+      </g>
+      <g transform="translate(305, 20)">
+        <rect width="102" height="85" rx="10" fill="#BBF7D0"/>
+        <text x="51" y="55" font-size="34" text-anchor="middle">🍲</text>
+        <rect x="18" y="92" width="66" height="26" rx="13" fill="#0F172A"/>
+        <text x="51" y="109" font-size="11.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">+ ADD</text>
+      </g>
+    </g>
+
+    <!-- Dish 3: Crispy Crab Rangoon -->
+    <g transform="translate(0, 205)">
+      <rect width="425" height="150" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadowMd)"/>
+      <g transform="translate(18, 20)">
+        <text x="0" y="16" font-size="16" font-weight="700" fill="#0F172A">Crispy Crab &amp; Herb Rangoon</text>
+        <text x="0" y="36" font-size="12.5" fill="#64748B">
+          <tspan x="0" dy="0">Handmade wonton crisps, real blue crab,</tspan>
+          <tspan x="0" dy="16">scallion cream cheese, sweet plum dip.</tspan>
+        </text>
+        <text x="0" y="90" font-size="16" font-weight="800" fill="#FF5B26">$9.50</text>
+      </g>
+      <g transform="translate(305, 20)">
+        <rect width="102" height="85" rx="10" fill="#FEE2E2"/>
+        <text x="51" y="55" font-size="34" text-anchor="middle">🥟</text>
+        <rect x="18" y="92" width="66" height="26" rx="13" fill="#0F172A"/>
+        <text x="51" y="109" font-size="11.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">+ ADD</text>
+      </g>
+    </g>
+
+    <!-- Dish 4: Mango Sticky Rice -->
+    <g transform="translate(445, 205)">
+      <rect width="425" height="150" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadowMd)"/>
+      <g transform="translate(18, 20)">
+        <text x="0" y="16" font-size="16" font-weight="700" fill="#0F172A">Ripe Mango &amp; Coconut Sticky Rice</text>
+        <text x="0" y="36" font-size="12.5" fill="#64748B">
+          <tspan x="0" dy="0">Fresh honey mango slices, warm pandan</tspan>
+          <tspan x="0" dy="16">sweet sticky rice, toasted sesame seeds.</tspan>
+        </text>
+        <text x="0" y="90" font-size="16" font-weight="800" fill="#FF5B26">$8.50</text>
+        <rect x="68" y="74" width="70" height="22" rx="6" fill="#F3E8FF"/>
+        <text x="103" y="89" font-size="11" font-weight="700" fill="#7E22CE" text-anchor="middle">GLUTEN FREE</text>
+      </g>
+      <g transform="translate(305, 20)">
+        <rect width="102" height="85" rx="10" fill="#FEF08A"/>
+        <text x="51" y="55" font-size="34" text-anchor="middle">🥭</text>
+        <rect x="18" y="92" width="66" height="26" rx="13" fill="#0F172A"/>
+        <text x="51" y="109" font-size="11.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">+ ADD</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==================== RIGHT COLUMN: STICKY TRANSPARENT CART ==================== -->
+  <g transform="translate(970, 260)">
+    <rect width="410" height="640" rx="20" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadowMd)"/>
+    
+    <g transform="translate(24, 24)">
+      <!-- Cart Header -->
+      <text x="0" y="18" font-size="18" font-weight="800" fill="#0F172A">Your Order · Siam Corner</text>
+      <text x="0" y="38" font-size="12.5" font-weight="600" fill="#0F766E">⚡ Arriving in 15–20 min</text>
+      <line x1="0" y1="52" x2="362" y2="52" stroke="#F1F5F9" stroke-width="1"/>
+
+      <!-- Item 1 -->
+      <g transform="translate(0, 68)">
+        <text x="0" y="15" font-size="14" font-weight="700" fill="#0F172A">1 × Pad Thai Boran</text>
+        <text x="362" y="15" font-size="14" font-weight="700" fill="#0F172A" text-anchor="end">$14.50</text>
+        <text x="0" y="32" font-size="12" fill="#64748B">• Medium Spicy, Crispy Tofu, Extra Lime</text>
+        <text x="0" y="48" font-size="11.5" font-weight="600" fill="#0D9488" cursor="pointer">Edit Customization</text>
+      </g>
+
+      <!-- Item 2 -->
+      <g transform="translate(0, 134)">
+        <text x="0" y="15" font-size="14" font-weight="700" fill="#0F172A">1 × Coconut Tom Kha Soup</text>
+        <text x="362" y="15" font-size="14" font-weight="700" fill="#0F172A" text-anchor="end">$8.90</text>
+        <text x="0" y="32" font-size="12" fill="#64748B">• Oyster mushrooms, cilantro, lemongrass</text>
+      </g>
+
+      <!-- Item 3 -->
+      <g transform="translate(0, 186)">
+        <text x="0" y="15" font-size="14" font-weight="700" fill="#0F172A">1 × Thai Iced Tea</text>
+        <text x="362" y="15" font-size="14" font-weight="700" fill="#0F172A" text-anchor="end">$4.50</text>
+        <text x="0" y="32" font-size="12" fill="#64748B">• Oat milk substitute, 50% sweetness</text>
+      </g>
+
+      <line x1="0" y1="234" x2="362" y2="234" stroke="#F1F5F9" stroke-width="1"/>
+
+      <!-- Promo Code Field -->
+      <g transform="translate(0, 248)">
+        <rect width="260" height="38" rx="10" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+        <text x="16" y="24" font-size="12" fill="#94A3B8">Promo / Gift card</text>
+        <rect x="270" width="92" height="38" rx="10" fill="#F1F5F9"/>
+        <text x="316" y="24" font-size="12" font-weight="700" fill="#0F172A" text-anchor="middle">Apply</text>
+      </g>
+
+      <!-- Fee Breakdown -->
+      <g transform="translate(0, 310)">
+        <g transform="translate(0, 0)">
+          <text x="0" y="12" font-size="13" fill="#64748B">Items Subtotal</text>
+          <text x="362" y="12" font-size="13" font-weight="600" fill="#0F172A" text-anchor="end">$27.90</text>
+        </g>
+        <g transform="translate(0, 26)">
+          <text x="0" y="12" font-size="13" fill="#64748B">Delivery Fee</text>
+          <text x="362" y="12" font-size="13" font-weight="700" fill="#0D9488" text-anchor="end">FREE</text>
+        </g>
+        <g transform="translate(0, 52)">
+          <text x="0" y="12" font-size="13" fill="#64748B">Transparent Service Fee (5%)</text>
+          <text x="362" y="12" font-size="13" font-weight="600" fill="#0F172A" text-anchor="end">$1.40</text>
+        </g>
+        <g transform="translate(0, 78)">
+          <text x="0" y="12" font-size="13" fill="#64748B">Estimated Local Taxes</text>
+          <text x="362" y="12" font-size="13" font-weight="600" fill="#0F172A" text-anchor="end">$2.48</text>
+        </g>
+      </g>
+
+      <line x1="0" y1="416" x2="362" y2="416" stroke="#E2E8F0" stroke-width="1"/>
+
+      <!-- Total -->
+      <g transform="translate(0, 436)">
+        <text x="0" y="18" font-size="16" font-weight="800" fill="#0F172A">Total</text>
+        <text x="362" y="18" font-size="20" font-weight="800" fill="#0F172A" text-anchor="end">$31.78</text>
+        <text x="0" y="38" font-size="11" fill="#64748B">✓ Guaranteed no surprise fees at final step</text>
+      </g>
+
+      <!-- Checkout CTA Button -->
+      <g transform="translate(0, 492)">
+        <rect width="362" height="52" rx="14" fill="#FF5B26"/>
+        <text x="181" y="32" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">Proceed to Checkout →</text>
+      </g>
+    </g>
+  </g>
+</svg>
