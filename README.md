@@ -150,9 +150,6 @@ start index.html
 ## 📂 7. Repository File Structure
 
 ```
-├── index.html                     # Interactive Redesign Studio Web App
-├── styles.css                     # Modern CSS design system & responsive frames
-├── hifi_screens/                  # High-Fidelity Vector Mockups (Figma-Ready)
     ├── desktop_homepage_1440.svg  # Desktop Discovery & Feed (1440x960)
     ├── desktop_menu_1440.svg      # Desktop Menu & Sticky Cart (1440x960)
     ├── desktop_tracker_1440.svg   # Desktop Live GPS Tracker (1440x960)
